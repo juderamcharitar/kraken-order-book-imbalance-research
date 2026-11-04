@@ -1,0 +1,696 @@
+{
+  "project": "BTC/USD Kraken L2 descriptive research \u2014 Phase 1",
+  "source_manifest": "data\\l2_overnight\\kraken_BTCUSD_20261103T073112Z\\manifest.json",
+  "segments_processed": 33,
+  "update_messages_processed": 12973391,
+  "one_second_observations": 86057,
+  "receive_timestamp_regressions": 1,
+  "per_segment": [
+    {
+      "segment": 1,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T073112Z_s0001.jsonl.gz",
+      "messages": 153515,
+      "observed_seconds": 1719,
+      "first_receive_utc": "2026-11-03T07:31:12.827384+00:00",
+      "last_receive_utc": "2026-11-03T07:59:59.944356+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 2,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T080000Z_s0002.jsonl.gz",
+      "messages": 380652,
+      "observed_seconds": 3592,
+      "first_receive_utc": "2026-11-03T08:00:00.769121+00:00",
+      "last_receive_utc": "2026-11-03T08:59:59.995141+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 3,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T090000Z_s0003.jsonl.gz",
+      "messages": 425652,
+      "observed_seconds": 3589,
+      "first_receive_utc": "2026-11-03T09:00:00.706065+00:00",
+      "last_receive_utc": "2026-11-03T09:59:59.923360+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 4,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T100000Z_s0004.jsonl.gz",
+      "messages": 344685,
+      "observed_seconds": 3586,
+      "first_receive_utc": "2026-11-03T10:00:00.970562+00:00",
+      "last_receive_utc": "2026-11-03T10:59:59.980834+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 5,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T110000Z_s0005.jsonl.gz",
+      "messages": 301312,
+      "observed_seconds": 3594,
+      "first_receive_utc": "2026-11-03T11:00:00.741784+00:00",
+      "last_receive_utc": "2026-11-03T11:59:58.290090+00:00",
+      "receive_timestamp_regressions": 1,
+      "warnings": [
+        {
+          "line": 53835,
+          "previous": "2026-11-03T11:07:28.223987+00:00",
+          "current": "2026-11-03T11:07:26.583757+00:00"
+        }
+      ],
+      "observed_seconds_adjacent_to_clock_warning": 23
+    },
+    {
+      "segment": 6,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T115958Z_s0006.jsonl.gz",
+      "messages": 214,
+      "observed_seconds": 1,
+      "first_receive_utc": "2026-11-03T11:59:59.292012+00:00",
+      "last_receive_utc": "2026-11-03T11:59:59.949241+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 7,
+      "state": "partial",
+      "source_file": "kraken_BTCUSD_20261103T120000Z_s0007.recovered.jsonl.gz",
+      "messages": 16689,
+      "observed_seconds": 139,
+      "first_receive_utc": "2026-11-03T12:00:00.979503+00:00",
+      "last_receive_utc": "2026-11-03T12:02:18.627510+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 8,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T120225Z_s0008.jsonl.gz",
+      "messages": 496195,
+      "observed_seconds": 3451,
+      "first_receive_utc": "2026-11-03T12:02:25.995401+00:00",
+      "last_receive_utc": "2026-11-03T12:59:59.994096+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 9,
+      "state": "partial",
+      "source_file": "kraken_BTCUSD_20261103T130000Z_s0009.recovered.jsonl.gz",
+      "messages": 147938,
+      "observed_seconds": 1318,
+      "first_receive_utc": "2026-11-03T13:00:00.867877+00:00",
+      "last_receive_utc": "2026-11-03T13:22:04.428759+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 10,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T132206Z_s0010.jsonl.gz",
+      "messages": 424092,
+      "observed_seconds": 2266,
+      "first_receive_utc": "2026-11-03T13:22:07.397824+00:00",
+      "last_receive_utc": "2026-11-03T13:59:59.976345+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 11,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T140000Z_s0011.jsonl.gz",
+      "messages": 674020,
+      "observed_seconds": 3590,
+      "first_receive_utc": "2026-11-03T14:00:00.848504+00:00",
+      "last_receive_utc": "2026-11-03T14:59:59.999406+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 12,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T150010Z_s0012.jsonl.gz",
+      "messages": 614151,
+      "observed_seconds": 3586,
+      "first_receive_utc": "2026-11-03T15:00:10.995226+00:00",
+      "last_receive_utc": "2026-11-03T15:59:59.997537+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 13,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T160000Z_s0013.jsonl.gz",
+      "messages": 550842,
+      "observed_seconds": 3588,
+      "first_receive_utc": "2026-11-03T16:00:01.115579+00:00",
+      "last_receive_utc": "2026-11-03T16:59:59.986763+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 14,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T170010Z_s0014.jsonl.gz",
+      "messages": 470043,
+      "observed_seconds": 3577,
+      "first_receive_utc": "2026-11-03T17:00:11.180652+00:00",
+      "last_receive_utc": "2026-11-03T17:59:59.954950+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 15,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T180010Z_s0015.jsonl.gz",
+      "messages": 420825,
+      "observed_seconds": 3577,
+      "first_receive_utc": "2026-11-03T18:00:10.853782+00:00",
+      "last_receive_utc": "2026-11-03T18:59:59.976981+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 16,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T190000Z_s0016.jsonl.gz",
+      "messages": 416532,
+      "observed_seconds": 3571,
+      "first_receive_utc": "2026-11-03T19:00:00.754083+00:00",
+      "last_receive_utc": "2026-11-03T19:59:59.989607+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 17,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T200000Z_s0017.jsonl.gz",
+      "messages": 492418,
+      "observed_seconds": 3581,
+      "first_receive_utc": "2026-11-03T20:00:01.130235+00:00",
+      "last_receive_utc": "2026-11-03T20:59:59.991302+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 18,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T210010Z_s0018.jsonl.gz",
+      "messages": 385572,
+      "observed_seconds": 3576,
+      "first_receive_utc": "2026-11-03T21:00:10.793376+00:00",
+      "last_receive_utc": "2026-11-03T21:59:59.895163+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 19,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T220010Z_s0019.jsonl.gz",
+      "messages": 225894,
+      "observed_seconds": 3572,
+      "first_receive_utc": "2026-11-03T22:00:10.785179+00:00",
+      "last_receive_utc": "2026-11-03T22:59:59.988292+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 20,
+      "state": "partial",
+      "source_file": "kraken_BTCUSD_20261103T230000Z_s0020.recovered.jsonl.gz",
+      "messages": 356936,
+      "observed_seconds": 3335,
+      "first_receive_utc": "2026-11-03T23:00:00.672053+00:00",
+      "last_receive_utc": "2026-11-03T23:55:39.624610+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 21,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261103T235541Z_s0021.jsonl.gz",
+      "messages": 50675,
+      "observed_seconds": 255,
+      "first_receive_utc": "2026-11-03T23:55:42.865363+00:00",
+      "last_receive_utc": "2026-11-03T23:59:59.999190+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 22,
+      "state": "partial",
+      "source_file": "kraken_BTCUSD_20261104T000010Z_s0022.recovered.jsonl.gz",
+      "messages": 622945,
+      "observed_seconds": 2659,
+      "first_receive_utc": "2026-11-04T00:00:10.948640+00:00",
+      "last_receive_utc": "2026-11-04T00:44:33.512621+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 23,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261104T004435Z_s0023.jsonl.gz",
+      "messages": 170263,
+      "observed_seconds": 924,
+      "first_receive_utc": "2026-11-04T00:44:36.468978+00:00",
+      "last_receive_utc": "2026-11-04T00:59:59.915213+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 24,
+      "state": "partial",
+      "source_file": "kraken_BTCUSD_20261104T010000Z_s0024.recovered.jsonl.gz",
+      "messages": 507898,
+      "observed_seconds": 1799,
+      "first_receive_utc": "2026-11-04T01:00:00.842638+00:00",
+      "last_receive_utc": "2026-11-04T01:30:04.289539+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 25,
+      "state": "partial",
+      "source_file": "kraken_BTCUSD_20261104T013006Z_s0025.recovered.jsonl.gz",
+      "messages": 327640,
+      "observed_seconds": 1314,
+      "first_receive_utc": "2026-11-04T01:30:07.619602+00:00",
+      "last_receive_utc": "2026-11-04T01:52:00.347996+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 26,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261104T015204Z_s0026.jsonl.gz",
+      "messages": 88475,
+      "observed_seconds": 475,
+      "first_receive_utc": "2026-11-04T01:52:05.734984+00:00",
+      "last_receive_utc": "2026-11-04T01:59:59.979537+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 27,
+      "state": "partial",
+      "source_file": "kraken_BTCUSD_20261104T020000Z_s0027.recovered.jsonl.gz",
+      "messages": 669207,
+      "observed_seconds": 3499,
+      "first_receive_utc": "2026-11-04T02:00:00.807143+00:00",
+      "last_receive_utc": "2026-11-04T02:58:21.800133+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 28,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261104T025824Z_s0028.jsonl.gz",
+      "messages": 27948,
+      "observed_seconds": 96,
+      "first_receive_utc": "2026-11-04T02:58:24.933256+00:00",
+      "last_receive_utc": "2026-11-04T02:59:59.979180+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 29,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261104T030010Z_s0029.jsonl.gz",
+      "messages": 905987,
+      "observed_seconds": 3582,
+      "first_receive_utc": "2026-11-04T03:00:11.800423+00:00",
+      "last_receive_utc": "2026-11-04T03:59:59.997765+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 30,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261104T040010Z_s0030.jsonl.gz",
+      "messages": 739982,
+      "observed_seconds": 3580,
+      "first_receive_utc": "2026-11-04T04:00:10.758116+00:00",
+      "last_receive_utc": "2026-11-04T04:59:59.962662+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 31,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261104T050000Z_s0031.jsonl.gz",
+      "messages": 769919,
+      "observed_seconds": 3599,
+      "first_receive_utc": "2026-11-04T05:00:01.103456+00:00",
+      "last_receive_utc": "2026-11-04T05:59:59.977469+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 32,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261104T060000Z_s0032.jsonl.gz",
+      "messages": 535765,
+      "observed_seconds": 3597,
+      "first_receive_utc": "2026-11-04T06:00:00.692081+00:00",
+      "last_receive_utc": "2026-11-04T06:59:59.866136+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    },
+    {
+      "segment": 33,
+      "state": "complete",
+      "source_file": "kraken_BTCUSD_20261104T070000Z_s0033.jsonl.gz",
+      "messages": 258510,
+      "observed_seconds": 1870,
+      "first_receive_utc": "2026-11-04T07:00:01.175188+00:00",
+      "last_receive_utc": "2026-11-04T07:31:10.443038+00:00",
+      "receive_timestamp_regressions": 0,
+      "warnings": [],
+      "observed_seconds_adjacent_to_clock_warning": 0
+    }
+  ],
+  "statistics": {
+    "spread_usd": {
+      "n": 86057,
+      "mean": 0.16666860336779554,
+      "median": 0.10000000000582077,
+      "p05": 0.09999999999126885,
+      "p95": 0.10000000000582077,
+      "min": 0.09999999999126885,
+      "max": 47.70000000001164
+    },
+    "spread_bps": {
+      "n": 86057,
+      "mean": 0.021620485891417088,
+      "median": 0.012940201389107425,
+      "p05": 0.01284659305028463,
+      "p95": 0.013094721320271199,
+      "min": 0.012780932893816745,
+      "max": 6.210836412169287
+    },
+    "mid": {
+      "n": 86057,
+      "mean": 77230.01904667837,
+      "median": 77281.45,
+      "p05": 76412.35,
+      "p95": 77842.25,
+      "min": 75628.95,
+      "max": 78241.55
+    },
+    "bid1_btc": {
+      "n": 86057,
+      "mean": 0.9007031005484736,
+      "median": 0.17125596,
+      "p05": 6.099e-05,
+      "p95": 4.27499715,
+      "min": 1e-07,
+      "max": 21.69465809
+    },
+    "ask1_btc": {
+      "n": 86057,
+      "mean": 1.0597873455954774,
+      "median": 0.42522803,
+      "p05": 0.00054592,
+      "p95": 4.28214071,
+      "min": 1.1e-07,
+      "max": 23.48421188
+    },
+    "bid10_btc": {
+      "n": 86057,
+      "mean": 6.371135692447216,
+      "median": 5.7072918,
+      "p05": 0.00721326,
+      "p95": 15.46276501,
+      "min": 0.00082042,
+      "max": 41.557011429999996
+    },
+    "ask10_btc": {
+      "n": 86057,
+      "mean": 7.996706247978898,
+      "median": 8.14536896,
+      "p05": 0.04053441,
+      "p95": 16.91683804,
+      "min": 0.0009796499999999999,
+      "max": 31.46184385
+    },
+    "bid100_btc": {
+      "n": 86057,
+      "mean": 71.147337084588,
+      "median": 72.24595748,
+      "p05": 36.18750237,
+      "p95": 103.29564589,
+      "min": 4.10932344,
+      "max": 167.07701376
+    },
+    "ask100_btc": {
+      "n": 86057,
+      "mean": 79.79925633346585,
+      "median": 80.49165412,
+      "p05": 50.65144732,
+      "p95": 108.43006029,
+      "min": 9.65374908,
+      "max": 189.69207557000001
+    },
+    "imbalance1": {
+      "n": 86057,
+      "mean": -0.10799624945940303,
+      "median": -0.4131526243861215,
+      "p05": -0.9998967951718718,
+      "p95": 0.9994542682860709,
+      "min": -0.9999999536845541,
+      "max": 0.9999999242358738
+    },
+    "imbalance10": {
+      "n": 86057,
+      "mean": -0.10910317086384788,
+      "median": -0.16493299250427265,
+      "p05": -0.9989480131599111,
+      "p95": 0.9931312628165544,
+      "min": -0.9999232390710086,
+      "max": 0.9998897595876046
+    },
+    "imbalance100": {
+      "n": 86057,
+      "mean": -0.06497737239179827,
+      "median": -0.051446171230237744,
+      "p05": -0.42018868088513617,
+      "p95": 0.25218492638040396,
+      "min": -0.921610733550724,
+      "max": 0.7961139618811852
+    },
+    "microprice_minus_mid_bps": {
+      "n": 86057,
+      "mean": -0.0011389201324983468,
+      "median": -0.002693111958848098,
+      "p05": -0.006517142279674196,
+      "p95": 0.00649607981715271,
+      "min": -3.10392538762195,
+      "max": 2.6494941409770867
+    },
+    "buy_0.1btc_cost_vs_mid_bps": {
+      "n": 86057,
+      "mean": 0.3321915718180108,
+      "median": 0.0065043992508116355,
+      "p05": 0.006426086826503812,
+      "p95": 1.782146893818132,
+      "min": 0.006390466446908372,
+      "max": 9.380701633914866
+    },
+    "sell_0.1btc_cost_vs_mid_bps": {
+      "n": 86057,
+      "mean": 0.41628125316087233,
+      "median": 0.006536832105828497,
+      "p05": 0.00642645024133382,
+      "p95": 1.908106804464296,
+      "min": 0.006390466446908372,
+      "max": 5.838556285699261
+    },
+    "buy_1.0btc_cost_vs_mid_bps": {
+      "n": 86057,
+      "mean": 0.5231538731263938,
+      "median": 0.10485296164658339,
+      "p05": 0.006435341868258305,
+      "p95": 2.2240537501002233,
+      "min": 0.006391275142849523,
+      "max": 16.315242463521734
+    },
+    "sell_1.0btc_cost_vs_mid_bps": {
+      "n": 86057,
+      "mean": 0.6118230795922989,
+      "median": 0.21552137008707187,
+      "p05": 0.0064322952684563945,
+      "p95": 2.3117782201684944,
+      "min": 0.006390834010601165,
+      "max": 8.019139425468177
+    }
+  },
+  "exploratory_same_segment_forward_midprice_correlations": {
+    "1s": {
+      "imbalance1": {
+        "n": 85921,
+        "corr_with_future_mid_return": 0.2635240372937289,
+        "mean_future_mid_return_bps": 0.0017877144449342558
+      },
+      "imbalance10": {
+        "n": 85921,
+        "corr_with_future_mid_return": 0.2818599361401098,
+        "mean_future_mid_return_bps": 0.0017877144449342558
+      },
+      "imbalance100": {
+        "n": 85921,
+        "corr_with_future_mid_return": 0.13198266407785883,
+        "mean_future_mid_return_bps": 0.0017877144449342558
+      },
+      "microprice_minus_mid_bps": {
+        "n": 85921,
+        "corr_with_future_mid_return": 0.10194279415303939,
+        "mean_future_mid_return_bps": 0.0017877144449342558
+      }
+    },
+    "5s": {
+      "imbalance1": {
+        "n": 85663,
+        "corr_with_future_mid_return": 0.30002037911371887,
+        "mean_future_mid_return_bps": 0.009583235540047006
+      },
+      "imbalance10": {
+        "n": 85663,
+        "corr_with_future_mid_return": 0.31130037452950904,
+        "mean_future_mid_return_bps": 0.009583235540047006
+      },
+      "imbalance100": {
+        "n": 85663,
+        "corr_with_future_mid_return": 0.1595563708803431,
+        "mean_future_mid_return_bps": 0.009583235540047006
+      },
+      "microprice_minus_mid_bps": {
+        "n": 85663,
+        "corr_with_future_mid_return": 0.07013326283599655,
+        "mean_future_mid_return_bps": 0.009583235540047006
+      }
+    },
+    "10s": {
+      "imbalance1": {
+        "n": 85467,
+        "corr_with_future_mid_return": 0.2692752203003713,
+        "mean_future_mid_return_bps": 0.019702442132461608
+      },
+      "imbalance10": {
+        "n": 85467,
+        "corr_with_future_mid_return": 0.28143198271367614,
+        "mean_future_mid_return_bps": 0.019702442132461608
+      },
+      "imbalance100": {
+        "n": 85467,
+        "corr_with_future_mid_return": 0.15159828541916404,
+        "mean_future_mid_return_bps": 0.019702442132461608
+      },
+      "microprice_minus_mid_bps": {
+        "n": 85467,
+        "corr_with_future_mid_return": 0.05828769035558285,
+        "mean_future_mid_return_bps": 0.019702442132461608
+      }
+    },
+    "30s": {
+      "imbalance1": {
+        "n": 84811,
+        "corr_with_future_mid_return": 0.1905005246946,
+        "mean_future_mid_return_bps": 0.06803153905005464
+      },
+      "imbalance10": {
+        "n": 84811,
+        "corr_with_future_mid_return": 0.19585263283895382,
+        "mean_future_mid_return_bps": 0.06803153905005464
+      },
+      "imbalance100": {
+        "n": 84811,
+        "corr_with_future_mid_return": 0.11249053680421751,
+        "mean_future_mid_return_bps": 0.06803153905005464
+      },
+      "microprice_minus_mid_bps": {
+        "n": 84811,
+        "corr_with_future_mid_return": 0.03646333427583824,
+        "mean_future_mid_return_bps": 0.06803153905005464
+      }
+    },
+    "60s": {
+      "imbalance1": {
+        "n": 83828,
+        "corr_with_future_mid_return": 0.13028177541547314,
+        "mean_future_mid_return_bps": 0.1562614286366045
+      },
+      "imbalance10": {
+        "n": 83828,
+        "corr_with_future_mid_return": 0.1258736624956968,
+        "mean_future_mid_return_bps": 0.1562614286366045
+      },
+      "imbalance100": {
+        "n": 83828,
+        "corr_with_future_mid_return": 0.07505425963751668,
+        "mean_future_mid_return_bps": 0.1562614286366045
+      },
+      "microprice_minus_mid_bps": {
+        "n": 83828,
+        "corr_with_future_mid_return": 0.024707807258295442,
+        "mean_future_mid_return_bps": 0.1562614286366045
+      }
+    }
+  },
+  "definitions": {
+    "sampling": "Last observed book message within a UTC receipt second; unobserved seconds omitted",
+    "spread_bps": "(best ask - best bid)/midprice * 10000",
+    "imbalance": "(displayed bid BTC depth - displayed ask BTC depth)/(sum of those depths)",
+    "microprice": "(best ask*bid1 size + best bid*ask1 size)/(bid1 size+ask1 size)",
+    "cost_vs_mid_bps": "Hypothetical immediate book walk, relative to midpoint; full-fill only",
+    "response": "Future midprice at exact calendar-second offset, same segment only; no gap crossing",
+    "timestamps": "Local receive UTC, may differ from exchange time; known backward jump clamped"
+  },
+  "limits": [
+    "No independent CRC32 re-check in this script; relies on prior 33-segment full checksum validation",
+    "No actual executions, market-order aggressor flags, order IDs, or verified causal market impact",
+    "Available depth only; hypothetically walking the book omits fees, latency, cancellations and subsequent reaction",
+    "Clock anomalies near affected intervals excluded from descriptive response summaries",
+    "Correlations are retrospective within the same sample and are NOT out-of-sample predictive validation",
+    "One 24-hour session is not enough for robust generalization over market regimes"
+  ]
+}

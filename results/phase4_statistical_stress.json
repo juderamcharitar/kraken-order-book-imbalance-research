@@ -1,0 +1,116 @@
+{
+  "research_stage": "Phase 4: within-day 5-minute block stress tests",
+  "source_features_csv": "kraken_research_phase1_full\\one_second_l2_features.csv",
+  "source_feature_rows": 86057,
+  "segments": 33,
+  "horizon_seconds": 5,
+  "eligible_pairs": 85551,
+  "five_minute_blocks": 295,
+  "within_block_corr": 0.3135505271272259,
+  "within_block_block_bootstrap_95pct_interval": [
+    0.2995187498107663,
+    0.3296823043627584
+  ],
+  "placebo": {
+    "blocks": 289,
+    "n": 85101,
+    "observed_corr": 0.31405677975735014,
+    "placebo_p_two_sided": 0.0033222591362126247,
+    "null_q95_abs": 0.035934716338244646,
+    "warning": "Placebo p-value is only a shift-sensitivity diagnostic, not independent-data statistical significance."
+  },
+  "chronological_boundary_utc": "2026-11-04T00:19:07+00:00",
+  "decile_test": {
+    "train_n": 59786,
+    "test_n": 25701,
+    "train_quantile_cutoffs": [
+      -0.9846667695037904,
+      -0.8111564447266536,
+      -0.5574723497314857,
+      -0.34233249284837214,
+      -0.1366566786564949,
+      0.07039411161560927,
+      0.30830064279322184,
+      0.6212252718799327,
+      0.9518593326511643
+    ],
+    "deciles": [
+      {
+        "decile": 1,
+        "test_n": 3284,
+        "mean_5s_future_mid_return_bps": -0.8877023895541859,
+        "positive_return_fraction": 0.1251522533495737
+      },
+      {
+        "decile": 2,
+        "test_n": 4007,
+        "mean_5s_future_mid_return_bps": -0.4406047451581973,
+        "positive_return_fraction": 0.1826803094584477
+      },
+      {
+        "decile": 3,
+        "test_n": 2216,
+        "mean_5s_future_mid_return_bps": -0.29145379134663396,
+        "positive_return_fraction": 0.23916967509025272
+      },
+      {
+        "decile": 4,
+        "test_n": 2246,
+        "mean_5s_future_mid_return_bps": -0.235168459726886,
+        "positive_return_fraction": 0.25333926981300087
+      },
+      {
+        "decile": 5,
+        "test_n": 2224,
+        "mean_5s_future_mid_return_bps": -0.056365821261132085,
+        "positive_return_fraction": 0.2981115107913669
+      },
+      {
+        "decile": 6,
+        "test_n": 2150,
+        "mean_5s_future_mid_return_bps": 0.18790989488332777,
+        "positive_return_fraction": 0.3716279069767442
+      },
+      {
+        "decile": 7,
+        "test_n": 2242,
+        "mean_5s_future_mid_return_bps": 0.34501503468745226,
+        "positive_return_fraction": 0.41837644959857273
+      },
+      {
+        "decile": 8,
+        "test_n": 2419,
+        "mean_5s_future_mid_return_bps": 0.5430502346813706,
+        "positive_return_fraction": 0.47044233154195947
+      },
+      {
+        "decile": 9,
+        "test_n": 2253,
+        "mean_5s_future_mid_return_bps": 0.651510544155504,
+        "positive_return_fraction": 0.48246782068353306
+      },
+      {
+        "decile": 10,
+        "test_n": 2660,
+        "mean_5s_future_mid_return_bps": 1.0283311939350734,
+        "positive_return_fraction": 0.6101503759398497
+      }
+    ],
+    "test_top_minus_bottom_bps": 1.9160335834892592,
+    "test_top_minus_bottom_block_bootstrap_95pct_interval_bps": [
+      1.7413932186555616,
+      2.1112906738916104
+    ],
+    "test_5min_blocks": 90
+  },
+  "random_seed": 20261104,
+  "cautions": [
+    "All results use a single already-examined 24h recording, so neither bootstrap intervals nor placebo p-values demonstrate cross-day generalization.",
+    "The chosen five-second horizon was selected after exploring the data. Other horizons are sensitivity checks, not preregistered tests.",
+    "Correlations are of displayed order book and future MIDPRICE changes, not fillable or net-of-fee trade P&L.",
+    "Block bootstrap assumes blocks approximate dependence units; 5-minute spacing is a sensitivity choice, not an independence guarantee.",
+    "Circular shifts are within 5-minute blocks, using positions in observed second samples; this is a placebo, not a fully valid experiment.",
+    "The decile train/test uses previous second and exact future second within one segment, excludes clock-warning intervals, and never crosses reconnect boundaries.",
+    "Decile test means describe future returns given contemporaneous observed imbalance; no execution, latency or live-trading assumptions are established."
+  ]
+}

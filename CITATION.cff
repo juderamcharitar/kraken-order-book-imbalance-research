@@ -1,0 +1,9 @@
+﻿cff-version: 1.2.0
+message: "If you use this research software, please cite the working paper."
+title: "Kraken BTC/USD Order-Book Imbalance Research"
+abstract: "Exploratory study of displayed depth imbalance and short-horizon midprice response in a single 24-hour Kraken BTC/USD L2 recording."
+authors:
+  - family-names: Ramcharitar
+    given-names: Jude Kriel
+date-released: 2026-11-04
+url: "https://github.com/juderamcharitar/kraken-order-book-imbalance-research"

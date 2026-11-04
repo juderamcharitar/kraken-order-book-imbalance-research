@@ -1,0 +1,16 @@
+﻿data/
+*.jsonl
+*.jsonl.gz
+*.jsonl.gz.partial
+*.recovered.jsonl.gz
+*.env
+.env.*
+*.pem
+*.key
+*.log
+*.zip
+.venv/
+venv/
+__pycache__/
+kraken_research_phase*/
+kraken_release_verification/
